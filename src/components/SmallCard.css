@@ -1,0 +1,29 @@
+.SmallCard{
+    position: relative;
+}
+
+.SmallCard img{
+    width: 300px;
+    height: 190px;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 7px;
+}
+
+.SmallCard img:hover{
+    scale: 1.05;
+    transition: all 0.4s ease-in-out;
+}
+
+.SmallCard-location{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 0;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    z-index: 3;
+}

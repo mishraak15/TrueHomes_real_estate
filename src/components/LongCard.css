@@ -1,0 +1,45 @@
+.LongCard {
+  position: relative;
+}
+
+.LongCard img{
+    width: 300px;
+    height: 400px;
+    border-radius: 7px;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+.LongCard img:hover{
+    scale: 1.05;
+    transition: all 0.4s ease-in-out;
+}
+
+.LongCard-location{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 0;
+    color: rgb(240, 240, 240);
+    font-size: 21px;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    z-index: 3;
+}
+
+.viewHomes {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(224, 224, 224, 0.678);
+    cursor: pointer;
+    padding: 4px 7px ;
+    margin: 1em;
+    color: #353535;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+}

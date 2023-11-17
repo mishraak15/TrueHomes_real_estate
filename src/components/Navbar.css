@@ -1,0 +1,45 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 2em;
+}
+
+.nav-left-items,.nav-right-items{
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    font-size: 15px;
+    color: #4c4c4c;
+    padding: 1.4em 0.8em;
+}
+
+.nav-left-items:hover,.nav-right-items:hover{
+    color: black;
+    border-bottom: 3px solid #427b01;
+}
+
+.Navbar .active{
+    color: #0051c4;
+    /* font-size: 15.5px; */
+    font-weight: bold;
+    border-bottom: 3px solid #427b01;
+}
+
+.nav-mid img{
+width: 150px;
+}
+
+.sign-in-btn{
+    background-color: #666666a9;
+    padding: 8px 1em;
+    border-radius: 1.3em;
+    color: black;
+    outline: none;
+    border: 1px solid #666666a9;
+}
+
+.sign-in-btn:hover{
+    background: none;
+    border: 1px solid #666666a9;
+}

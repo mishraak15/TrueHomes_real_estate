@@ -1,0 +1,9 @@
+ font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+
+
+color green  #427b01
+color orange #d93c23
+color blue  #006aff;
+color dark grey  #666;

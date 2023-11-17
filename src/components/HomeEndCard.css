@@ -1,0 +1,56 @@
+.HomeEndCard{
+    width: 25%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px ;
+    box-shadow: 1px 1px 9px rgb(134, 134, 134);
+    padding: 10px;
+    height: 380px;
+}
+
+.HomeEndCard:hover{
+    scale: 1.03;
+    box-shadow: 2px 2px 12px rgb(134, 134, 134);
+    transition: all 0.3s ease-in-out;
+}
+
+.HomeEndCard img{
+    width: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+.HomeEndCard h3{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+
+.HomeEndCard p{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(121, 121, 121);
+    width: 90%;
+    margin:  6px auto;
+}
+
+.HomeEndCard button{
+    margin: 12px auto;
+    display: block;
+    padding: 10px;
+    background-color:#006aff;
+    border-radius: 4px ;
+    border: 1px solid #006aff;
+    color: white;
+    font-size: 16px;
+}
+
+.HomeEndCard button:hover{
+    color: #006aff;
+    background:none;
+    cursor: pointer;
+    font-weight: bold;
+}
